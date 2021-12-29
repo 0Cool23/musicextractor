@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <Import Project="$(SolutionDir)/targets/BuildInfo.targets" />
+  <Import Project="$(SolutionDir)/targets/LicenseInfo.targets" />
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Configurations>Debug;Release;Coverage</Configurations>
+    <Copyright>GPL-2.0</Copyright>
+    <Version>1.0.0.0</Version>
+    <Authors>Götz Olbrischewski</Authors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\toolkit\libApplication\libApplication.csproj" />
+  </ItemGroup>
 
 </Project>

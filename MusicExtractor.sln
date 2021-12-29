@@ -9,6 +9,61 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libApplication", "..\toolki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionTests", "RegressionTests\RegressionTests.csproj", "{443D9324-86CA-450E-849C-9A03BD3059C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AB75E60-4B0D-4F63-B2B3-AAAB3BEE9E5B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		Doxyfile = Doxyfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dox", "dox", "{08299C9F-154A-43D6-A37D-4EDC4DA43689}"
+	ProjectSection(SolutionItems) = preProject
+		dox\license.dox = dox\license.dox
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doxygen", "doxygen", "{52479092-F9E9-4B3E-89FC-0FE5DD13BC0B}"
+	ProjectSection(SolutionItems) = preProject
+		dox\doxygen\.gitignore = dox\doxygen\.gitignore
+		dox\doxygen\coding_style.dox = dox\doxygen\coding_style.dox
+		dox\doxygen\groups.dox = dox\doxygen\groups.dox
+		dox\doxygen\index.dox = dox\doxygen\index.dox
+		dox\doxygen\license.dox = dox\doxygen\license.dox
+		dox\doxygen\README.md = dox\doxygen\README.md
+		dox\doxygen\releases.dox = dox\doxygen\releases.dox
+		dox\doxygen\versioning.dox = dox\doxygen\versioning.dox
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "licenses", "licenses", "{BE5576E9-10A4-4397-A916-EAA578E7EB71}"
+	ProjectSection(SolutionItems) = preProject
+		dox\doxygen\licenses\license-apache2.0.md = dox\doxygen\licenses\license-apache2.0.md
+		dox\doxygen\licenses\license-gpl2.0.md = dox\doxygen\licenses\license-gpl2.0.md
+		dox\doxygen\licenses\license-lgpl2.1.md = dox\doxygen\licenses\license-lgpl2.1.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "coding_styles", "coding_styles", "{46898549-08F9-44BE-8447-91399CA2133F}"
+	ProjectSection(SolutionItems) = preProject
+		dox\doxygen\coding_styles\csg_csharp.dox = dox\doxygen\coding_styles\csg_csharp.dox
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{04D1B140-7E7D-4D2B-9234-4A78839E5493}"
+	ProjectSection(SolutionItems) = preProject
+		targets\.gitignore = targets\.gitignore
+		targets\BuildInfo.targets = targets\BuildInfo.targets
+		targets\Coverage.targets = targets\Coverage.targets
+		targets\LicenseInfo.targets = targets\LicenseInfo.targets
+		targets\README.md = targets\README.md
+		targets\SolutionInfo.targets = targets\SolutionInfo.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FED390CD-612B-4F7A-8B32-F97189FC9968}"
+	ProjectSection(SolutionItems) = preProject
+		targets\src\BuildInfoTask.cs = targets\src\BuildInfoTask.cs
+		targets\src\CoverageTask.cs = targets\src\CoverageTask.cs
+		targets\src\LicenseInfoTask.cs = targets\src\LicenseInfoTask.cs
+		targets\src\SolutionInfoTask.cs = targets\src\SolutionInfoTask.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Coverage|Any CPU = Coverage|Any CPU
@@ -44,6 +99,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08299C9F-154A-43D6-A37D-4EDC4DA43689} = {9AB75E60-4B0D-4F63-B2B3-AAAB3BEE9E5B}
+		{52479092-F9E9-4B3E-89FC-0FE5DD13BC0B} = {08299C9F-154A-43D6-A37D-4EDC4DA43689}
+		{BE5576E9-10A4-4397-A916-EAA578E7EB71} = {52479092-F9E9-4B3E-89FC-0FE5DD13BC0B}
+		{46898549-08F9-44BE-8447-91399CA2133F} = {52479092-F9E9-4B3E-89FC-0FE5DD13BC0B}
+		{04D1B140-7E7D-4D2B-9234-4A78839E5493} = {9AB75E60-4B0D-4F63-B2B3-AAAB3BEE9E5B}
+		{FED390CD-612B-4F7A-8B32-F97189FC9968} = {04D1B140-7E7D-4D2B-9234-4A78839E5493}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A12DDE96-8A74-4811-A82F-5A70ABDA0B32}
