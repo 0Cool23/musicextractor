@@ -5,16 +5,42 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicExtractor", "MusicExtractor\MusicExtractor.csproj", "{C4D1E5DD-35B4-4A44-9851-39DF79082094}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libApplication", "..\toolkit\libApplication\libApplication.csproj", "{D14E0100-C860-45CF-AF77-9011BB030C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionTests", "RegressionTests\RegressionTests.csproj", "{443D9324-86CA-450E-849C-9A03BD3059C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Coverage|Any CPU = Coverage|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Setup|Any CPU = Setup|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Coverage|Any CPU.Build.0 = Release|Any CPU
 		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Setup|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D1E5DD-35B4-4A44-9851-39DF79082094}.Setup|Any CPU.Build.0 = Debug|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Setup|Any CPU.ActiveCfg = Setup|Any CPU
+		{D14E0100-C860-45CF-AF77-9011BB030C84}.Setup|Any CPU.Build.0 = Setup|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Coverage|Any CPU.ActiveCfg = Coverage|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Coverage|Any CPU.Build.0 = Coverage|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Setup|Any CPU.ActiveCfg = Debug|Any CPU
+		{443D9324-86CA-450E-849C-9A03BD3059C5}.Setup|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
